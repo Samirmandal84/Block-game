@@ -16,7 +16,7 @@ body{
 #character{
     width: 100px;
     height: 100px;
-    background-color: rgb(72, 188, 57);
+    background-color: #FED049;
     position: relative;
     top: 400px;
     left: 100px;
@@ -25,7 +25,7 @@ body{
 #block{
     width: 100px;
     height: 100px;
-    border-radius: 30px;
+/*     border-radius: 30px; */
     background-color: rgb(158, 67, 215);
     position: relative;
     animation: slide 1s infinite;
