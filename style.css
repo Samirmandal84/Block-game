@@ -53,25 +53,28 @@ body{
 #right{
     left:50%;
 }
-.left, .right, i{
-    display: none;
+img{
     opacity: 0;
 }
+
 @media (max-width:500px) {
-    .left{
+    #right{
+        left:50%;
+    }
+    #left{
+       margin-left: 10px;
+    }
+     .left{
         position: absolute;
         top:550px;
-        left:10px;
-        opacity: 1;
+        /* left:70px; */
+        opacity:1;
     }
     .right{
         position: absolute;
         top:550px;
         left:100px;
         opacity:1;
-    }
-    i{
-        font-size: 10px;
     }
 }
 
