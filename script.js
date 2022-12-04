@@ -9,7 +9,7 @@ function moveLeft(){
 function moveRight(){
     let left = parseInt(window.getComputedStyle(character).getPropertyValue("left"));
     left += 100;
-    if(left<300){
+    if(left<400){
         character.style.left = left + "px";
     }
     
@@ -38,7 +38,7 @@ setInterval(function(){
 
     var blockTop = parseInt(window.getComputedStyle(block)
     .getPropertyValue('top'));
-    if(characterLeft == blockLeft && blockTop<500 && blockTop>300){
+    if(characterLeft == blockLeft && blockTop<500 && blockTop>400){
         alert('Game Over 🙂, Score: '+ counter);
         block.style.animation = 'none';
     }
