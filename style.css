@@ -36,6 +36,23 @@ body{
     from {top:-100px;}
     to{top:500px;}
 }
+button{
+    font-size: 2rem;
+    padding: 1rem;
+    width:20rem;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 8%;
+    border-radius: 30px;
+    border-color: aqua;
+    color: black;
+    /* text-align: center; */
+
+}
+button:hover{
+    background-color: aqua;
+}
 
 #white{
     width: 300px;
@@ -75,6 +92,22 @@ img{
         top:550px;
         left:100px;
         opacity:1;
+    }
+    button{
+        font-size: 2rem;
+        padding: 1rem;
+        width:20rem;
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+        padding-left: 28%;
+        border-radius: 30px;
+        border-color: aqua;
+        /* text-align: center; */
+    
+    }
+    button:hover{
+        background-color: aqua;
     }
 }
 
